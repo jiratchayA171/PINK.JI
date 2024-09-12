@@ -1,0 +1,32 @@
+/*พื้นหลัง*/
+.bodyy{
+    background-image: url(https://i.pinimg.com/564x/b7/85/38/b78538d7f22e1282dc073aedaad1fcb9.jpg);
+    background-color: blue;
+    background-repeat: no-repeat; /*repeat=การทำให้ภาพพื้นหลังเรียงกันจนเต็มพื้นที่*/
+    background-position: center; /*ตำแหน่ง center=กึ่งกลาง left=ซ้าย top-left=บนซ้าน bottom-left=ล่างซ้าย right=ขวา top-right=บนขวา bottom-right=ล่างขวา*/
+    background-attachment: fixed;
+    background-size: cover; /*ขนาดพื้นหลัง contain=เกือบเต็มจอ cover=เต็มจอ auto=ค่าปกติภาพเท่าเดิม*/
+}
+/*พื้นหลัง (จบ)*/
+
+.image-container img {
+    width: 190px;
+    height: auto;
+    transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงเมื่อ hover */
+}
+
+/* เมื่อวางเมาส์บนรูปภาพ */
+.image-container img:hover {
+    transform: scale(1.1); /* ขยายรูปภาพขึ้น 10% */
+}
+
+.image-containers img {
+    max-width: 500px;
+    height: auto;
+    transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงเมื่อ hover */
+}
+
+/* เมื่อวางเมาส์บนรูปภาพ */
+.image-containers img:hover {
+    transform: scale(1.1); /* ขยายรูปภาพขึ้น 10% */
+}
